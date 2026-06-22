@@ -1,88 +1,151 @@
-# =============================================================================
-# Example: Single content folder, single language
-# Content: content/posts/post.md (all content in one folder, no translations)
-# See: https://gohugo.io/content-management/multilingual/
-# =============================================================================
+# THIS IS AN EXAMPLE ON HOW YOU SHOULD CONFIGURE YOUR hugo.toml
+# See this hugo.toml in action at https://github.com/1bl4z3r/hermit-V2/blob/staging/hugo.toml
+# Example Site is Staging branch, acessible at https://github.com/1bl4z3r/hermit-V2/tree/staging
+# To see what each config does, refer to https://1bl4z3r.github.io/hermit-V2/en/posts/explaining-configs/
+# Open Issue or Pull Request at https://github.com/1bl4z3r/hermit-V2
 
-baseURL = 'https://example.com/'
-theme = "mana"
+baseURL = "CHANGE BASE URL"
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+#theme = "hermit-v2"
+#enableRobotsTXT = true ## set to true to enable inbuilt robots.txt
 
-[pagination]
-  pageSize = 10
+#[languages]
+#  [languages.en]
+#    title = 'CHANGE ME'
+#    [languages.en.params]
+#      homeSubtitle = "CHANGE ME"
+#    weight = 1
+#  [languages.fr]
+#    title = 'CHANGE ME(FR)'
+#    [languages.fr.params]
+#      homeSubtitle = "CHANGE ME"
+#    weight = 2
+#  [languages.it]
+#    title = 'CHANGE ME(IT)'
+#    [languages.it.params]
+#      homeSubtitle = "CHANGE ME"
+#    weight = 3
+ 
+locale = "en-US"
 
-[markup]
-  [markup.tableOfContents]
-    startLevel = 1
-    endLevel = 6
-    ordered = false
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-    [markup.goldmark.parser]
-      [markup.goldmark.parser.attribute]
-        block = true
-        title = true
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    noClasses = false
-    style = "catppuccin-macchiato"
+# title = "CHANGE ME"
+# enableGitInfo = true
 
-[outputs]
-  home = ["HTML", "JSON"]
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+#hasCJKLanguage = true
 
-[sitemap]
-  changefreq = "weekly"
-  priority = 0.5
-  filename = "sitemap.xml"
+rssLimit = 10
+
+copyright = "CHANGE ME"
+enableEmoji = true
+
+#[services]
+#  [services.disqus]
+#    shortname = ''
+#  [services.googleAnalytics]
+#    id = ''
+
+[params.author]
+  name = "CHANGE SITE AUTHOR"
+  about = "CHANGE SITE AUTHOR ABOUT"
+
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
+  # category = "categories"
+
+# Enable to get proper Mathjax support
+#[markup]
+#  [markup.goldmark]
+#    [markup.goldmark.extensions]
+#      [markup.goldmark.extensions.passthrough]
+#        enable = true
+#        [markup.goldmark.extensions.passthrough.delimiters]
+#          block = [['\[', '\]'], ['$$', '$$']]
+#          inline = [['\(', '\)']]
+
 
 [params]
-  enableIntegrity = false
-  relatedPostsCount = 3
-  description = "Home of the Nomadic Punk"
-  author = "Christopher Clements"
-  heroTitleLine1 = "Projects and Thoughts"
-  heroTitleLine2 = "Curiosity is all it takes"
-  footerText = "Built with Hugo and Mana theme"
+  # description = "CHANGE ME SITE DESCRIPTION"
+  # images = [""]
+  themeColor = "#494f5c"
+  accentColor = "#018472"
 
-  [params.social]
-    github = "https://github.com/NomadicPunk"
-    facebook = "https://www.facebook.com/Smurf357"    
-    email = "gadget@nomadicpunk.xyz"
+  #homeSubtitle = "CHANGE ME HOME SUBTITLE"
+  footerCopyright = "CHANGE ME FOOTER COPYRIGHT"
+  # footerHideThemeName = false
+  # bgImg = ""
+  # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
+  justifyContent = false
+  code_copy_button = true
+  homeSubtitlePrinter = true
+  scrollToTop = true 
+  global_mathjax = false
+  # legacyLayout = false
+  shareSocial = true
+  # googleTagManager = "GTM-XXXXXXXX"
+  # tagSymbol = "#"
+  # categorySymbol = "⊲"
+  # pinned = "Pinned Posts"
+  # pinnedSVGname = "pin"
+  # listLayout = ["description","tags","categories","legacy"]
+  # initialPublish = "Initally Posted on: "
+  # human = ["single","posts"]
+  # noIndex = false
+  # denyRobots = "noindex, nofollow, noarchive"
+  # allowRobots = "index, follow"
+  # siteNoIndex = false
+  # noIndexPages = ["404 Page not found"]
+  # usesAnimation = true
+  # mathjaxLib = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+  # mermaidLib = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs"
 
-  [params.buyMeACoffee]
-    enabled = true
-    id = "nomadicpunk"
+  [params.pages]
+    LastmodOpen = '['
+    LastmodClose = ']'
+    readTimeSeparator = "\u2026 \u23F2 Reading Time:"
+    lastUpdatedOn = "Last updated on: "
+    relatedPosts = true
 
-  [params.codeHighlight]
-    darkTheme = "catppuccin-macchiato"
-    lightTheme = "catppuccin-frappe"
+  [params.gallery]
+    enable = true
+    width = '300'
+    layout = "grid"
 
-  [params.copyright]
-    startYear = 2025
-    owner = "Christopher Clements"
+  [params.dateform]
+    CopyrightDate = "2006"
+    LongDate = "Jan 2, 2006"
+    ShortDate = "Jan 2"
+    NumDateShort = "2006-01-02"
+    NumDateLong = "2006-01-02 15:04 -0700"
+  
+  [[params.socialLinks]]
+    name = "mastodon"
+    url = "https://joinmastodon.org/"
 
-  [params.admonitions]
-    alertStyle = "favicon"
+  [[params.socialLinks]]
+    name = "x"
+    url = "https://twitter.com/"
 
-# Single language: use root-level menus. No [languages] block needed.
-[[menus.main]]
-  name = "Home"
-  pageRef = "/"
-  weight = 10
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
 
-[[menus.main]]
-  name = "Posts"
-  pageRef = "/posts"
-  weight = 20
+[menu]
 
-[[menus.main]]
-  name = "Tags"
-  pageRef = "/tags"
-  weight = 30
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
 
-[[menus.main]]
-  name = "About"
-  url = "/about/"
-  weight = 40
+  [[menu.main]]
+    name = "About"
+    url = "about-hugo/"
+    weight = 20
