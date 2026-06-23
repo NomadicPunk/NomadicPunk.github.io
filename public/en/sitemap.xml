@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2026-06-22T14:04:12-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/</loc>
+    <lastmod>2026-06-22T14:04:12-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2026-06-22T14:04:12-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/untagged/</loc>
+    <lastmod>2026-06-22T14:04:12-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/welcome/</loc>
+    <lastmod>2026-06-22T14:04:12-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/test/</loc>
+    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/categories/</loc>
+  </url>
+</urlset>
