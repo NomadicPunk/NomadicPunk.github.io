@@ -10,6 +10,12 @@ defaultContentLanguageInSubdir = true
 theme = "hermit-v2"
 enableRobotsTXT = true ## set to true to enable inbuilt robots.txt
 
+
+# This seems like wrong place to put this but not sure where else lol
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 #[languages]
 #  [languages.en]
 #    title = 'CHANGE ME'
