@@ -8,14 +8,14 @@ title = 'About'
 ---
 I never much cared for talking about myself, My experiences..absolutly, but who I am as a person, or the ole *"So Chris, tell me a little bit about yourself"*, That every interviewer seems to enjoy torturing perspective hires with..not so much. So, since this is my website I decided to let you figure out who I am. They say a picture is worth a thousand words so these should help you determine exactly who I am undoubtly( plus it gives me an opportunity to learn how to embed pictures haha) 
 
-  ![Nomadic Punk Today](me_recent.jpg) a little about me with this? Perhaps that being a hairstylist was my calling? A missed opportunity to be sure! Maybe there is something my eyes give away? perhaps not..
+  ![Nomadic Punk Today](me_recent.jpg) Can you define a little about me with this? Perhaps that being a hairstylist was my calling? A missed opportunity to be sure! Maybe there is something my eyes give away? perhaps not..
 
 
 
 
 
 
-![Chris's Cherished Hat](me_cap.jpg) This was taken a number of years ago, does it reveal similiar information about who I might be, are is there something different? 
+![Chris's Cherished Hat](me_cap.jpg) This was taken a number of years ago, does it reveal similiar information about who I might be, or is there something different? 
 
 
 
@@ -26,7 +26,7 @@ I never much cared for talking about myself, My experiences..absolutly, but who 
 
 
 
-![me_flipper](me_flipper.jpg) Now you can undoubtly describe who I am right? That is four photo's, each worth a thousand words far more than you'd ever find in an about me page. 
+![me_flipper](me_flipper.jpg) Now you can undoubtly describe who I am right? That is four photo's, each worth a thousand words, far more than you'd ever find in an about me page. 
 
 
 
@@ -34,11 +34,11 @@ I never much cared for talking about myself, My experiences..absolutly, but who 
 ![me_darker](me_darker.jpg) Now you are seeing the pattern right? I'm clearly some kind of punk rocker/goth type person...it's plain to see? 
 
 
-![me_med](me_med.jpg)  Since when do punk rockers where scrubs?
+![me_med](me_med.jpg)  Since when do punk rockers wear scrubs?
 
 
 
-![me_seaside](me_seaside.jpg)Or walk around in a fishermans sweater in a fishing village?
+![me_seaside](me_seaside.jpg)...Or walk around in a fishermans sweater in a fishing village?
 
 
 
