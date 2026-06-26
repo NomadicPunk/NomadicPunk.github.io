@@ -13,8 +13,16 @@ enableRobotsTXT = true ## set to true to enable inbuilt robots.txt
 
 # This seems like wrong place to put this but not sure where else lol
 [caches]
-  [caches.images]
+ [caches.images]
     dir = ':cacheDir/images'
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
 
 #[languages]
 #  [languages.en]
