@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
-		<title></title>
-		<link>http://localhost:1313/en/</link>
-		<description>Recent content on </description>
+		<title>About-Hugoes on </title>
+		<link>http://localhost:1313/en/about-hugo/</link>
+		<description>Recent content in About-Hugoes on </description>
 		<generator>Hugo -- 0.163.3</generator>
 		<language>en</language>
 		<lastBuildDate>Fri, 26 Jun 2026 08:28:21 -0700</lastBuildDate>
-		<atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/en/about-hugo/index.xml" rel="self" type="application/rss+xml" />
 		
 		
 		<item>
@@ -32,30 +32,6 @@
 <p><img src="../../assets/me_contemplative%203.jpg" alt="Thinking"></p>
 <hr>
 <p>I am, of course being a litte facitious with this post. My point being a paragragh or two, or a few minutes in an interview room can&rsquo;t even begin to describe who I am, It may infact lead you in the wrong direction as not having all the information tends to do. I am a human being , and so are you. A beautiful, confusingly complex human being&hellip;just like you&hellip;maybe it is time we stop acting like we can condense ourselves into some easily describably blurb and instead celebrate every little thing we are that we could never fit into a resume &lt;3</p>
-]]></content>
-		</item>
-		
-		<item>
-			<title>Welcome</title>
-			<link>http://localhost:1313/en/posts/welcome/</link>
-			<pubDate>Mon, 22 Jun 2026 14:04:12 -0700</pubDate><author>Christopher Clements</author><guid>http://localhost:1313/en/posts/welcome/</guid>
-			<description><![CDATA[&lt;no value&gt;]]></description><content type="text/html" mode="escaped"><![CDATA[<h1 id="welcome-to-the-home-of-the-nomadic-punk">Welcome to the home of the Nomadic Punk.<a href="#welcome-to-the-home-of-the-nomadic-punk" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round" class="feather">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h1>
-<hr>
-<h2 id="my-name-is-christopher-clements-and-this-is-going-to-be-my-story">My name is Christopher Clements and this is going to be my story<a href="#my-name-is-christopher-clements-and-this-is-going-to-be-my-story" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-      stroke-linecap="round" stroke-linejoin="round" class="feather">
-      <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path>
-      <line x1="8" y1="12" x2="16" y2="12"></line>
-   </svg></a></h2>
-<p>That title sounds rather profound reading it back a few days later. A bit misleading as I did not build this site for some lofty goal.</p>
-<p>I could not in fact answer the question, &ldquo;Why are you building this site?&rdquo; I&rsquo;m not entirely sure, curiosity perhaps is the biggest motivation as is the norm for me. Where some think in a linear fashion, I most certainly do not. I have been told that i am a &ldquo;Web Thinker&rdquo; where I connect concepts or traits rather than following some single line of thought to an end. I rarely have any concept of there even being an end.</p>
-<p>I might for example begin thinking of a skateboard, in describing a skateboard, I may begin wondering about the invention of sandpaper(grip tape) and from there, perhaps carpentry -&gt; Home building -&gt; the quote &quot; Home is where the heart is&quot; -&gt; who wrote that? etc. So, in my mind a skateboard is intrinsicly related to the 1870 play Davey Crockett by J.J. McCloskey</p>
-<p>So, take this as somewhat of a warning that that is the way I think, In normal conversation I make an effort to subdue this as much as I can but here on this website I have no intention of attemping to limit my wandering..for better or worse.</p>
-<p>I will however attempt to have some manner of loose structure to my posts using tags so that you can find things that you are more interested in #music #philosophy #technology etc. We shall find out together how well that works, or if some other form of organization arises, this is an experiment so I know about as much as you do as to how it is going to go.</p>
-<p>First and formost, thank you for taking the time out of your day to read these. Time is a valuable commodity, and I can&rsquo;t thank you enough for investing some of it to me. If you ever have comments, ideas you would like me to look at, or complaints always feel free to drop me an email at <a href="mailto:gadget@nomadicpunk.xyz">gadget@nomadicpunk.xyz</a> or on social media.</p>
 ]]></content>
 		</item>
 		
